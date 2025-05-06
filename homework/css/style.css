@@ -1,57 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: sans-serif;
-    background: url('https://i.ibb.co/7tZ8G3j/hbackground.png') no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.85); /* Arka planın üzerine beyaz şeffaf katman */
-  }
-  
-  .content {
-    max-width: 600px;
-  }
-  
-  .content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  input[type="email"] {
-    padding: 10px;
-    width: 70%;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #ff3b3f;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .image img {
-    max-width: 500px;
-    height: auto;
-    border-radius: 10px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+ 
+}
+header{
+  background: url('../img/2b2f8787985cabb6920eaaeecfea44bd6b5ef5d8.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 754px;
+  /* width: 1440px; */
+  width: 100vw;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  min-height: 406px;
+  /*background-color: rgba(56, 50, 50, 0.85); /* Arka planın üzerine beyaz şeffaf katman */
+}
+
+.content {
+  width: 665px;
+  min-height: 164px;
+  align-items: center;
+  align-content: center;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  /* margin-right: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input_wrapper{
+  max-width: 502px;
+  max-height: 73px;
+  position: relative;
+}
+
+.button_kayit {
+  position: absolute;
+  padding: 10px 20px;
+  height: 33px;
+  background-color: #ff3b3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 1%;
+  /* top: 1px; */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav {
+  width: 100vw;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 40px;
+  margin-left: 584px;
+
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  justify-content: flex-end;
+  display: inline-block;
+  margin-top: 45px;
+}
+
+.nav_button {
+  width: 91px;
+  height: 40px;
+  margin-top: 35px;
+  /* margin-left: 1227px; */
+  border-radius: 5px;
+  gap: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: #ff3b3f;
+  color: white;
+}
+.button_mail{
+  position: absolute;
+
+}
+
+header {
+  width: 1440px;
+  height: 754px;
+
+}
+h2 {
+  font-weight:bold;
+  text-align: center;
+}
+
+.main_container{
+  text-align: center;
+  margin-top: 120px;
+}
+.main_text {
+  padding-top: 30px;
+}
