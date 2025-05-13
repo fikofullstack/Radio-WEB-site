@@ -236,3 +236,14 @@ margin-left: 50%;
 	text-align: center;
 }
 
+.benefits-bottom-cntr {
+	display: flex;
+	/* padding-left: 509px; */
+}
+.benefits-logo-item{
+	padding-left: 50px;
+	background-color: #f9bf3b;
+	border-radius: 950px;
+	width: 118px;
+	align-items: center;
+}
