@@ -7,6 +7,21 @@
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
+	/* display: flex; */
+}
+
+.container-benefits {
+	background-image: url(../img/Online\ radio@2x.png);
+	background-position: -5% 60%;
+	background-repeat: no-repeat;
+	background-size: 615px 351px;
+	width: 100vw;
+	min-height: 700px;
+
+}
+
+.benefits {
+	background-color: black;
 }
 
 .title {
@@ -109,5 +124,115 @@
 .promo__more-img {
 	display: block;
 	margin: 10px auto 0 auto;
+}
+
+.intensive__wrapper {
+	display: flex;
+}
+
+.intensive__subtitle {
+	text-align: center;
+	margin-bottom: 42px;
+}
+
+.intensive__title {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.divider {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 14px;
+}
+
+.intensive__item {
+	margin: 42px 48px;
+}
+
+.intensive__descr {
+	margin-top: 15px;
+}
+
+.backround {
+	width: 100vw;
+	background-color: rgb(0, 0, 0);
+	min-height: 560px;
+}
+
+.background-img2 {
+	min-width: none;
+	width: 625px;
+	min-height: none;
+	min-height: 350px;
+	margin: 50px 998px 22px 307px;
+	padding-top: 50px;
+	display: flex;
+}
+
+.benefits-header {
+	color: #f9bf3b;
+	padding-top: 50%%;
+	font-size: 30px;
+	line-height: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-right: 10%;
+}
+
+
+.benefits-text {
+	text-align: end;
+	color: white;
+ 
+	
+}
+
+.benefits-text1 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
+	text-shadow: 50px 1px 3px rgba(0, 0, 0, 0.22);
+}
+.benefits-text2{
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
+}
+.benefits-text3{
+margin-bottom: 20px;
+width: 40%;
+/* margin-right: 30%; */
+height: max-content;
+margin-left: 50%;
+}
+.benefits-text4{
+margin-bottom: 20px;
+width: 40%;
+/* margin-right: 30%; */
+height: max-content;
+margin-left: 50%;
+}
+.benefits-bottom{
+	background: url(../img/Bg.jpg) no-repeat center center;
+	min-width: 200px;
+	min-height: 100px;
+}
+.benefits-bottom-txt{
+	color: white;
+	text-align: center;
+	padding-top: 78px;
+	align-content: center;
+}
+.benefits-bottom-txt-img{
+	padding-top: 12px;
+}
+.benefits-bottom-logo {
+	text-align: center;
 }
 

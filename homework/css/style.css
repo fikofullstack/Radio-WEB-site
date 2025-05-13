@@ -6,14 +6,16 @@
 
 body {
   font-family: sans-serif;
- 
+
 }
-header{
-  background: url('../img/2b2f8787985cabb6920eaaeecfea44bd6b5ef5d8.png') no-repeat center center fixed;
+
+header {
+  background: url('../img/2b2f8787985cabb6920eaaeecfea44bd6b5ef5d8.png') no-repeat center center;
   background-size: cover;
-  min-height: 754px;
-  /* width: 1440px; */
-  width: 100vw;
+  min-height: 100%;
+  /* width: 1440px;  */
+  width: 100%;
+  
 }
 
 .hero-section {
@@ -26,10 +28,13 @@ header{
 }
 
 .content {
-  width: 665px;
+  width: 30%;
   min-height: 164px;
   align-items: center;
   align-content: center;
+  margin-left: 10%;
+
+
 }
 
 .content h1 {
@@ -50,7 +55,7 @@ input[type="email"] {
   border-radius: 5px;
 }
 
-.input_wrapper{
+.input_wrapper {
   max-width: 502px;
   max-height: 73px;
   position: relative;
@@ -108,25 +113,28 @@ input[type="email"] {
   background-color: #ff3b3f;
   color: white;
 }
-.button_mail{
+
+.button_mail {
   position: absolute;
 
 }
 
 header {
-  width: 1440px;
+  /* width: 1440px; */
   height: 754px;
 
 }
+
 h2 {
-  font-weight:bold;
+  font-weight: bold;
   text-align: center;
 }
 
-.main_container{
+.main_container {
   text-align: center;
   margin-top: 120px;
 }
+
 .main_text {
-  padding-top: 30px;
+  padding: 30px;
 }
