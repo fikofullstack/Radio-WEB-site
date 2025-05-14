@@ -172,7 +172,7 @@
 
 .benefits-header {
 	color: #f9bf3b;
-	padding-top: 50%%;
+	/* padding-top: 50%%; */
 	font-size: 30px;
 	line-height: 100px;
 	text-transform: uppercase;
@@ -185,8 +185,6 @@
 .benefits-text {
 	text-align: end;
 	color: white;
- 
-	
 }
 
 .benefits-text1 {
@@ -197,53 +195,89 @@
 	margin-left: 50%;
 	text-shadow: 50px 1px 3px rgba(0, 0, 0, 0.22);
 }
-.benefits-text2{
+
+.benefits-text2 {
 	margin-bottom: 20px;
 	width: 40%;
 	/* margin-right: 30%; */
 	height: max-content;
 	margin-left: 50%;
 }
-.benefits-text3{
-margin-bottom: 20px;
-width: 40%;
-/* margin-right: 30%; */
-height: max-content;
-margin-left: 50%;
+
+.benefits-text3 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
 }
-.benefits-text4{
-margin-bottom: 20px;
-width: 40%;
-/* margin-right: 30%; */
-height: max-content;
-margin-left: 50%;
+
+.benefits-text4 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
 }
-.benefits-bottom{
+
+.benefits-bottom {
 	background: url(../img/Bg.jpg) no-repeat center center;
 	min-width: 200px;
 	min-height: 100px;
 }
-.benefits-bottom-txt{
+
+.benefits-bottom-txt {
 	color: white;
 	text-align: center;
 	padding-top: 78px;
 	align-content: center;
 }
-.benefits-bottom-txt-img{
+
+.benefits-bottom-txt-img {
 	padding-top: 12px;
 }
+
 .benefits-bottom-logo {
 	text-align: center;
 }
 
 .benefits-bottom-cntr {
 	display: flex;
-	/* padding-left: 509px; */
+	justify-content: center;
+	gap: 60px;
+	margin-top: 32px;
 }
-.benefits-logo-item{
-	padding-left: 50px;
+
+.benefits-logo-item {
 	background-color: #f9bf3b;
-	border-radius: 950px;
-	width: 118px;
+	padding: 48px;
+	border-radius: 50%;
 	align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100px;
+}
+
+.benefits-bottom-logo {
+	position: absolute;
+
+}
+
+.dif1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.benefits-bottom-logo-p {
+	color: #EFEFEF;
+	text-align: center;
+	margin-top: 18px;
+}
+
+.present-item {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
