@@ -1,0 +1,283 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	/* display: flex; */
+}
+
+.container-benefits {
+	background-image: url(../img/Online\ radio@2x.png);
+	background-position: -5% 60%;
+	background-repeat: no-repeat;
+	background-size: 615px 351px;
+	width: 100vw;
+	min-height: 700px;
+
+}
+
+.benefits {
+	background-color: black;
+}
+
+.title {
+	text-align: center;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.title__colored {
+	color: #f9bf3b;
+	font-size: 41px;
+	line-height: 41px;
+}
+
+.title__big {
+	color: #fff;
+	font-size: 80px;
+	line-height: 80px;
+}
+
+.btn {
+	min-width: 315px;
+	min-height: 72px;
+	display: block;
+	margin: 0 auto;
+	padding: 0 15px;
+	border-radius: 4px;
+	background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
+	color: #fff;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.promo {
+	/* min-height: 800px; */
+	background: url("../img/main_bg.jpg") center center / cover no-repeat;
+	padding: 22px 0 53px 0;
+}
+
+.logo__img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo__text {
+	margin-top: 13px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.promo h1 {
+	margin-top: 52px;
+}
+
+.promo h2 {
+	margin-top: 12px;
+}
+
+.promo .btn {
+	margin-top: 75px;
+}
+
+.promo__text {
+	margin-top: 20px;
+	color: #fff;
+	text-align: center;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.promo__text span {
+	color: #f9bf3b;
+	text-transform: uppercase;
+}
+
+.promo__more-text {
+	margin-top: 75px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.promo__more-img {
+	display: block;
+	margin: 10px auto 0 auto;
+}
+
+.intensive__wrapper {
+	display: flex;
+}
+
+.intensive__subtitle {
+	text-align: center;
+	margin-bottom: 42px;
+}
+
+.intensive__title {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.divider {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 14px;
+}
+
+.intensive__item {
+	margin: 42px 48px;
+}
+
+.intensive__descr {
+	margin-top: 15px;
+}
+
+.backround {
+	width: 100vw;
+	background-color: rgb(0, 0, 0);
+	min-height: 560px;
+}
+
+.background-img2 {
+	min-width: none;
+	width: 625px;
+	min-height: none;
+	min-height: 350px;
+	margin: 50px 998px 22px 307px;
+	padding-top: 50px;
+	display: flex;
+}
+
+.benefits-header {
+	color: #f9bf3b;
+	/* padding-top: 50%%; */
+	font-size: 30px;
+	line-height: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-right: 10%;
+}
+
+
+.benefits-text {
+	text-align: end;
+	color: white;
+}
+
+.benefits-text1 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
+	text-shadow: 50px 1px 3px rgba(0, 0, 0, 0.22);
+}
+
+.benefits-text2 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
+}
+
+.benefits-text3 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
+}
+
+.benefits-text4 {
+	margin-bottom: 20px;
+	width: 40%;
+	/* margin-right: 30%; */
+	height: max-content;
+	margin-left: 50%;
+}
+
+.benefits-bottom {
+	background: url(../img/Bg.jpg) no-repeat center center;
+	min-width: 200px;
+	min-height: 100px;
+}
+
+.benefits-bottom-txt {
+	color: white;
+	text-align: center;
+	padding-top: 78px;
+	align-content: center;
+}
+
+.benefits-bottom-txt-img {
+	padding-top: 12px;
+}
+
+.benefits-bottom-logo {
+	text-align: center;
+}
+
+.benefits-bottom-cntr {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	margin-top: 32px;
+}
+
+.benefits-logo-item {
+	background-color: #f9bf3b;
+	padding: 48px;
+	border-radius: 50%;
+	align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100px;
+}
+
+.benefits-bottom-logo {
+	position: absolute;
+
+}
+
+.dif1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.benefits-bottom-logo-p {
+	color: #EFEFEF;
+	text-align: center;
+	margin-top: 18px;
+}
+
+.present-item {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
