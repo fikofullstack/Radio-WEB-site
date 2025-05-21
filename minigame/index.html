@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найди шарик</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Найди шарик</h1>
+        <div class="game-stats">
+            <div class="score">Очки: <span id="score">0</span></div>
+            <div class="timer">Время: <span id="timer">10</span></div>
+        </div>
+        <div class="game-area">
+            <div class="ball" id="ball"></div>
+            <div class="cups-container">
+                <div class="cup" id="cup1">
+                    <div class="cup-top"></div>
+                </div>
+                <div class="cup" id="cup2">
+                    <div class="cup-top"></div>
+                </div>
+                <div class="cup" id="cup3">
+                    <div class="cup-top"></div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="startBtn">Начать игру</button>
+            <button id="resetBtn">Сбросить</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

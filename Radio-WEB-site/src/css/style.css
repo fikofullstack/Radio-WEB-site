@@ -249,6 +249,13 @@
 	padding-bottom: 102px;
 }
 
+.dif1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
 .benefits-logo-item {
 	background-color: #f9bf3b;
 	padding: 48px;
@@ -263,13 +270,6 @@
 .benefits-bottom-logo {
 	position: absolute;
 
-}
-
-.dif1 {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
 }
 
 .benefits-bottom-logo-p {
@@ -385,11 +385,13 @@
 	width: 99vw;
 	height: 165px;
 }
+
 .footer_info_txt {
 	color: #888888;
 	text-align: center;
-padding-top: 58px;
-} 
+	padding-top: 58px;
+}
+
 .footer_info_txt2 {
 	color: #888888;
 	text-align: center;
